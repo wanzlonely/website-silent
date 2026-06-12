@@ -1,0 +1,61 @@
+{
+  "botConfig": {
+    "ownerId": 6143435003, // jangan lupa ganti jadi id telegram kamu
+    "resellers": []
+  },
+  "users": {
+    "pepet": {
+      "username": "panness",
+      "status": "Owner",
+      "activeUntil": "9999-12-31",
+      "limit": 9999,
+      "whatsappSenders": []
+    },
+    "userbiasa": {
+      "username": "userbiasa",
+      "status": "User",
+      "activeUntil": "2026-12-31",
+      "limit": 10,
+      "whatsappSenders": []
+    },
+    "bebas": {
+      "username": "bebas",
+      "status": "User",
+      "activeUntil": "2026-12-31",
+      "limit": 10,
+      "whatsappSenders": []
+    }
+  },
+  "history": {
+    "pepet": [
+      {
+        "id": 1,
+        "date": "2026-06-10 14:00:00",
+        "target": "08123456789",
+        "payload": "Payload Alpha",
+        "status": "Success"
+      },
+      {
+        "id": 2,
+        "date": "2026-06-11 09:15:00",
+        "target": "08987654321",
+        "payload": "Payload Beta",
+        "status": "Failed"
+      },
+      {
+        "id": 3,
+        "date": "2026-06-11 10:47:06",
+        "target": "628999999999",
+        "payload": "WA Sender: 6288287677384 | Msg: Protocol Beta (Ad Reply)",
+        "status": "Success"
+      },
+      {
+        "id": 4,
+        "date": "2026-06-11 11:50:41",
+        "target": "62899999999",
+        "payload": "WA Sender: 6288287677384 | Msg: Protocol Beta (Ad Reply)",
+        "status": "Success"
+      }
+    ]
+  }
+}
